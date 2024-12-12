@@ -1,0 +1,75 @@
+.Board-div {
+  max-width: 90vw;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Board-row-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.Board-row {
+  display: flex;
+  gap: 5px;
+}
+
+.Tile {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: calc(20px + 1vmin);
+}
+
+/* Responsive sizing for different grid sizes */
+.size-5 .Tile {
+  width: 45px;
+  height: 45px;
+  font-size: calc(18px + 1vmin);
+}
+
+.size-6 .Tile {
+  width: 40px;
+  height: 40px;
+  font-size: calc(16px + 1vmin);
+}
+
+.size-7 .Tile, .size-8 .Tile {
+  width: 35px;
+  height: 35px;
+  font-size: calc(14px + 1vmin);
+}
+
+.size-9 .Tile, .size-10 .Tile {
+  width: 30px;
+  height: 30px;
+  font-size: calc(12px + 1vmin);
+}
+
+.Paper {
+  background-color: white;
+  border: 2px solid #4CAF50;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.Paper:hover {
+  background-color: #e8f5e9;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  color: #4CAF50;
+}

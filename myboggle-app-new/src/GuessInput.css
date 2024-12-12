@@ -1,0 +1,28 @@
+.Guess-input {
+  border: 15px solid grey;
+  margin: 30px;
+  text-align: center;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.guess-text-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.label-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.helper-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}

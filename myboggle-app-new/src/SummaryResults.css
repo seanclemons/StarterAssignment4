@@ -1,0 +1,22 @@
+.Summary {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Summary h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.Summary div {
+  margin: 10px 0;
+}
+
+.Summary li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
